@@ -1,4 +1,4 @@
-import './homepage.styles.css';
+import './home-page.styles.css';
 import {Animated} from "react-animated-css";
 
 const HomePage = () => (
@@ -9,7 +9,7 @@ const HomePage = () => (
             </Animated>
             <Animated animationIn="fadeIn" animationInDuration={2000} isVisible >
                 <p>I am a web developer from Austin, Texas.</p>
-                <p>This is my portfolio, and i'd love if you took a look around!</p>
+                <p>This is my portfolio, take a look around!</p>
             </Animated>
         </div>
     </div>
