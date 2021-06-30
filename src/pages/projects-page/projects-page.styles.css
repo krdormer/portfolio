@@ -1,17 +1,40 @@
+.projects-page {
+    min-width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+    font-size: 1.4rem;
+    margin-top: 5%;
+}
+
+.project-text {
+    width: 80vw;
+    font-size: 1.4rem;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    margin-top: 2%;
+}
+
 .project {
     display: inline-block;
     border: 2px solid blue;
     border-radius: 10px;
     width: 20%;
     height: 10%;
+    margin: 2%;
+    padding: 2%;
 }
 
 .projectOne {
-    width: 200px;
+    width: 250px;
     height: 200px;
 }
 
 .projectTwo {
-    width: 200px;
+    width: 250px;
     height: 200px;
+}
+
+.project-button-container {
+    display: inline-block;
+    margin: 0 4%;
 }
