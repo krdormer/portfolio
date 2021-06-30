@@ -1,0 +1,11 @@
+.about-page {
+    min-width: 100vw;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.about-info {
+    width: 80vw;
+    font-size: 1.6rem;
+    margin: 10%;
+}

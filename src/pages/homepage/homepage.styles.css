@@ -1,0 +1,9 @@
+.homepage {
+    min-width: 100vw;
+    min-height: 100vh;
+}
+
+.intro-text {
+    font-size: 1.6rem;
+    margin-top: 15%;
+}
