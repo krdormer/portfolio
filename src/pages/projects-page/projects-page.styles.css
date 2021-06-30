@@ -1,0 +1,17 @@
+.project {
+    display: inline-block;
+    border: 2px solid blue;
+    border-radius: 10px;
+    width: 20%;
+    height: 10%;
+}
+
+.projectOne {
+    width: 200px;
+    height: 200px;
+}
+
+.projectTwo {
+    width: 200px;
+    height: 200px;
+}
