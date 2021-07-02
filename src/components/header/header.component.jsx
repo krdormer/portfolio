@@ -1,7 +1,9 @@
+// For styles 
 import './header.styles.css';
-
+// For routing 
 import { Link } from 'react-router-dom';
 
+// Link paths here will match up to predefined routes/components in app.js
 const Header = () => (
     <div className="header">
         <div className="link-container">

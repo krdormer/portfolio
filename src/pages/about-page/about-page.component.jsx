@@ -1,8 +1,12 @@
+// React and React hook imports 
 import React, { useState } from 'react';
+// For styles
 import './about-page.styles.css';
+// For animations, using Animated component 
 import {Animated} from "react-animated-css";
 
 const AboutPage = () => {
+    // Sets a state hook for each <p> tag, used for timing of display on screen
     const [visible_first, setVisibilityFirst] = useState(false);
     const [visible_second, setVisibilitySecond] = useState(false);
     const [visible_third, setVisibilityThird] = useState(false);
@@ -10,7 +14,7 @@ const AboutPage = () => {
     const [visible_fifth, setVisibilityFifth] = useState(false);
 
 
-
+    // Timers set to appropriate hook, displays one <p/> tag per second 
     setInterval(() => {
         setVisibilityFirst(true)
     }, 1000)

@@ -1,4 +1,6 @@
+// For styles
 import './home-page.styles.css';
+// For animations, using Animated component 
 import {Animated} from "react-animated-css";
 
 const HomePage = () => (

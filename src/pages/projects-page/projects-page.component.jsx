@@ -1,11 +1,12 @@
 import React from 'react';
+// For styles
 import './projects-page.styles.css';
-
+// Material UI Button 
 import Button from '@material-ui/core/Button';
-
+// SVG image import as component 
 import { ReactComponent as CrwnImage } from '../../assets/crwn_clothing_tag.svg';
 import { ReactComponent as  DigitalMagicImage} from '../../assets/digital_magic_tag.svg';
-
+// For routing to project links
 import { Link } from 'react-router-dom';
 
 const ProjectsPage = () => (
