@@ -6,6 +6,8 @@ import Button from '@material-ui/core/Button';
 import { ReactComponent as CrwnImage } from '../../assets/crwn_clothing_tag.svg';
 import { ReactComponent as  DigitalMagicImage} from '../../assets/digital_magic_tag.svg';
 
+import { Link } from 'react-router-dom';
+
 const ProjectsPage = () => (
     <div className="projects-page">
         <h1>My Projects</h1>
@@ -23,40 +25,65 @@ const ProjectsPage = () => (
             <div className='project'>
                 <CrwnImage className="projectOne" />
                 <div className="project-button-container">
-                    <Button variant="outlined" color="primary">
-                        Live Demo!
-                    </Button>
+                    <Link to={{ 
+                        pathname: "https://crwn-clothing-21-krd.herokuapp.com/" 
+                    }} target="_blank" className='project-button-link'>
+                        <Button variant="outlined" color="primary">
+                            Live Demo!
+                        </Button>
+                    </Link>
                 </div>
                 <div className="project-button-container">
-                    <Button variant="outlined" color="primary">
-                        GitHub Link
-                    </Button>
+                    <Link to={{ 
+                        pathname: "https://github.com/krdormer/crwn_clothing" 
+                    }} target="_blank" className='project-button-link'>
+                        <Button variant="outlined" color="primary">
+                            GitHub Link
+                        </Button>
+                    </Link>
+                </div>
+            </div>
+
+            <div className="project">
+                <DigitalMagicImage className='projectTwo' />
+                <div className="project-button-container">
+                    <Link to={{ 
+                        pathname: "https://relaxed-wescoff-b22e85.netlify.app/" 
+                    }} target="_blank" className='project-button-link'>
+                        <Button variant="outlined" color="primary">
+                            Live Demo!
+                        </Button>
+                    </Link>
+                </div>
+                <div className="project-button-container">
+                    <Link to={{ 
+                        pathname: "https://github.com/krdormer/DigitalMagic" 
+                    }} target="_blank" className='project-button-link'>
+                        <Button variant="outlined" color="primary">
+                            GitHub Link
+                        </Button>
+                    </Link>
                 </div>
             </div>
             <div className="project">
                 <DigitalMagicImage className='projectTwo' />
                 <div className="project-button-container">
-                    <Button variant="outlined" color="primary">
-                        Live Demo!
-                    </Button>
+                    <Link to={{ 
+                        pathname: "https://jovial-benz-9278be.netlify.app/" 
+                    }} target="_blank" className='project-button-link'>
+                        <Button variant="outlined" color="primary">
+                            Live Demo!
+                        </Button>
+                    </Link>
                 </div>
                 <div className="project-button-container">
-                    <Button variant="outlined" color="primary">
-                        GitHub Link
-                    </Button>
-                </div>
-            </div>
-            <div className="project">
-                <DigitalMagicImage className='projectTwo' />
-                <div className="project-button-container">
-                    <Button variant="outlined" color="primary">
-                        Live Demo!
-                    </Button>
-                </div>
-                <div className="project-button-container">
-                    <Button variant="outlined" color="primary">
-                        GitHub
-                    </Button>
+                    <Link to={{ 
+                        pathname: "https://github.com/krdormer/joke-teller-bot" 
+                    }} target="_blank" className='project-button-link'>
+                        <Button variant="outlined" color="primary">
+                            GitHub Link
+                        </Button>
+                    </Link>
                 </div>
             </div>
         </div>
