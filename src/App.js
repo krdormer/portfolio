@@ -9,6 +9,7 @@ import Header from './components/header/header.component';
 import HomePage from './pages/home-page/home-page.component';
 import AboutPage from './pages/about-page/about-page.component';
 import ProjectsPage from './pages/projects-page/projects-page.component';
+import TechPage from './pages/tech-page/tech-page.component';
 
 // NPM Components
 
@@ -21,6 +22,7 @@ const App = () => {
         <Route exact path='/' component={HomePage} />
         <Route path = '/about' component={AboutPage} />
         <Route path='/projects' component={ProjectsPage} />
+        <Route path='/tech' component={TechPage} />
       </Switch>
     </div>
   );
