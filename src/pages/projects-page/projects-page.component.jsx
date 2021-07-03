@@ -29,61 +29,56 @@ const ProjectsPage = () => (
             </div>
         </Animated>
         <div className="project-container">
-            <div className='project'>
             <Animated isVisible animationIn='slideInLeft'>
-                <h6 className='project-title' >CRWN Clothing</h6>
-                <CrwnImage className="projectOne" />
-                <div className="project-button-container">
-                    <Link to={{ 
-                        pathname: "https://crwn-clothing-21-krd.herokuapp.com/" 
-                    }} target="_blank" className='project-button-link'>
-                        <Button variant="outlined" color="primary">
-                            Live Demo!
-                        </Button>
-                    </Link>
+                <div className='project'>
+                    <h6 className='project-title' >CRWN Clothing</h6>
+                    <CrwnImage className="projectOne" />
+                    <div className="project-button-container">
+                        <Link to={{ 
+                            pathname: "https://crwn-clothing-21-krd.herokuapp.com/" 
+                        }} target="_blank" className='project-button-link'>
+                            <Button variant="outlined" color="primary">
+                                Live Demo!
+                            </Button>
+                        </Link>
+                    </div>
+                    <div className="project-button-container">
+                        <Link to={{ 
+                            pathname: "https://github.com/krdormer/crwn_clothing" 
+                        }} target="_blank" className='project-button-link'>
+                            <Button variant="outlined" color="primary">
+                                GitHub Link
+                            </Button>
+                        </Link>
+                    </div>
                 </div>
-                <div className="project-button-container">
-                    <Link to={{ 
-                        pathname: "https://github.com/krdormer/crwn_clothing" 
-                    }} target="_blank" className='project-button-link'>
-                        <Button variant="outlined" color="primary">
-                            GitHub Link
-                        </Button>
-                    </Link>
+            </Animated>
+            <Animated isVisible animationIn='slideInLeft'>
+                <div className="project">
+                    <h6 className='project-title' >Digital Magic</h6>
+                    <DigitalMagicImage className='projectTwo' />
+                    <div className="project-button-container">
+                        <Link to={{ 
+                            pathname: "https://relaxed-wescoff-b22e85.netlify.app/" 
+                        }} target="_blank" className='project-button-link'>
+                            <Button variant="outlined" color="primary">
+                                Live Demo!
+                            </Button>
+                        </Link>
+                    </div>
+                    <div className="project-button-container">
+                        <Link to={{ 
+                            pathname: "https://github.com/krdormer/DigitalMagic" 
+                        }} target="_blank" className='project-button-link'>
+                            <Button variant="outlined" color="primary">
+                                GitHub Link
+                            </Button>
+                        </Link>
+                    </div>
                 </div>
-                </Animated>
-            </div>
-            
+            </Animated>
+            <Animated isVisible animationIn='slideInLeft'>
             <div className="project">
-            <Animated isVisible animationIn='slideInLeft'>
-
-                <h6 className='project-title' >Digital Magic</h6>
-                <DigitalMagicImage className='projectTwo' />
-                <div className="project-button-container">
-                    <Link to={{ 
-                        pathname: "https://relaxed-wescoff-b22e85.netlify.app/" 
-                    }} target="_blank" className='project-button-link'>
-                        <Button variant="outlined" color="primary">
-                            Live Demo!
-                        </Button>
-                    </Link>
-                </div>
-                <div className="project-button-container">
-                    <Link to={{ 
-                        pathname: "https://github.com/krdormer/DigitalMagic" 
-                    }} target="_blank" className='project-button-link'>
-                        <Button variant="outlined" color="primary">
-                            GitHub Link
-                        </Button>
-                    </Link>
-                </div>
-                </Animated>
-
-            </div>
-
-            <div className="project">
-            <Animated isVisible animationIn='slideInLeft'>
-
                 <h6 className='project-title' >Robo-Joke-Teller</h6>
                 <DigitalMagicImage className='projectTwo' />
                 <div className="project-button-container">
@@ -104,10 +99,10 @@ const ProjectsPage = () => (
                         </Button>
                     </Link>
                 </div>
-                </Animated>
             </div>
+        </Animated>
         </div>
-    </div>
+        </div>
 );
 
 export default ProjectsPage;
