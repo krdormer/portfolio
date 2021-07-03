@@ -1,13 +1,36 @@
 .about-page {
     min-width: 100vw;
     min-height: 100vh;
-    text-align: center;
+    text-align: left;
 }
 
 .about-info {
     width: 80vw;
     font-size: 1.4rem;
-    margin-left: 10vw;
-    margin-right: 10vw;
-    margin-top: 2%;
+    margin-top: 1%;
+}
+
+.education-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-right: 60px;
+}
+
+.experience-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-right: 60px;
+
+}
+
+.hobbies-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin-right: 60px;
+}
+
+.about-list-container {
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
 }

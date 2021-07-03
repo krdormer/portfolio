@@ -8,22 +8,30 @@ import { ReactComponent as CrwnImage } from '../../assets/crwn_clothing_tag.svg'
 import { ReactComponent as  DigitalMagicImage} from '../../assets/digital_magic_tag.svg';
 // For routing to project links
 import { Link } from 'react-router-dom';
+// NPM Component imports 
+import { Animated } from 'react-animated-css';
 
 const ProjectsPage = () => (
     <div className="projects-page">
-        <h1>My Projects</h1>
-        <div className="project-text">
-            <p>
-                These are some of my favorite projects to date. Each will have a live demo associated with
-                it, as well as a link to the GitHub repo where you can review the code if interested. 
-            </p>
-            <p>
-                Feel free to take a look, play around with them, break them, I'm always open to feedback
-                so I can improve! 
-            </p>
-        </div>
+        <Animated isVisible={true} animationIn='fadeInDown'>
+            <h1>My Projects</h1>
+        </Animated>
+        <Animated isVisible={true} animationIn='fadeInDown'>
+            <div className="project-text">
+                <p>
+                    These are some of my favorite projects to date. Each will have a live demo associated with
+                    it, as well as a link to the GitHub repo where you can review the code if interested. 
+                </p>
+                <p>
+                    Feel free to take a look, play around with them, break them, I'm always open to feedback
+                    so I can improve! 
+                </p>
+            </div>
+        </Animated>
         <div className="project-container">
             <div className='project'>
+            <Animated isVisible animationIn='slideInLeft'>
+                <h6 className='project-title' >CRWN Clothing</h6>
                 <CrwnImage className="projectOne" />
                 <div className="project-button-container">
                     <Link to={{ 
@@ -43,9 +51,13 @@ const ProjectsPage = () => (
                         </Button>
                     </Link>
                 </div>
+                </Animated>
             </div>
-
+            
             <div className="project">
+            <Animated isVisible animationIn='slideInLeft'>
+
+                <h6 className='project-title' >Digital Magic</h6>
                 <DigitalMagicImage className='projectTwo' />
                 <div className="project-button-container">
                     <Link to={{ 
@@ -65,8 +77,14 @@ const ProjectsPage = () => (
                         </Button>
                     </Link>
                 </div>
+                </Animated>
+
             </div>
+
             <div className="project">
+            <Animated isVisible animationIn='slideInLeft'>
+
+                <h6 className='project-title' >Robo-Joke-Teller</h6>
                 <DigitalMagicImage className='projectTwo' />
                 <div className="project-button-container">
                     <Link to={{ 
@@ -86,6 +104,7 @@ const ProjectsPage = () => (
                         </Button>
                     </Link>
                 </div>
+                </Animated>
             </div>
         </div>
     </div>

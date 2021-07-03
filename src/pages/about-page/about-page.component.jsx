@@ -7,14 +7,14 @@ import {Animated} from "react-animated-css";
 
 const AboutPage = () => {
     // Sets a state hook for each <p> tag, used for timing of display on screen
-    const [visible_first, setVisibilityFirst] = useState(false);
+    const [visible_first, setVisibilityFirst] = useState(false)
     const [visible_second, setVisibilitySecond] = useState(false);
     const [visible_third, setVisibilityThird] = useState(false);
-    const [visible_fourth, setVisibilityFourth] = useState(false);
-    const [visible_fifth, setVisibilityFifth] = useState(false);
+
 
 
     // Timers set to appropriate hook, displays one <p/> tag per second 
+
     setInterval(() => {
         setVisibilityFirst(true)
     }, 1000)
@@ -27,13 +27,13 @@ const AboutPage = () => {
         setVisibilityThird(true)
     }, 3000)
 
-    setInterval(() => {
-        setVisibilityFourth(true)
-    }, 4000)
+    // setInterval(() => {
+    //     setVisibilityFourth(true)
+    // }, 9000)
 
-    setInterval(() => {
-        setVisibilityFifth(true)
-    }, 5000)
+    // setInterval(() => {
+    //     setVisibilityFifth(true)
+    // }, 12000)
     
     return (
     <div className="about-page">
@@ -41,42 +41,55 @@ const AboutPage = () => {
             <Animated isVisible={true} animationIn='fadeInDown'>
                 <h1>A bit about me...</h1>
             </Animated>
-            <Animated animateOnMount={false} isVisible={visible_first} animationIn='fadeInDown' >
+            <Animated animateOnMount={false} isVisible={visible_first} animationIn='fadeInDown'>
                 <p>
-                    I am a software developer focused mainly on web technologies. I currently reside in the
-                    Austin, Texas area and could not love it more! 
+                    I am a self-taught software developer located in Austin, TX with a background in web development 
+                    and its related technologies, looking to break into a professional role in the industry. 
                 </p>
             </Animated>
-            <Animated animateOnMount={false} isVisible={visible_second} animationIn='fadeInDown' >
-                <p>
-                    I have a highly diverse career background - driven mainly by my desire to learn new things,
-                    and apply them to the world around me. I graduated high school with an Emergency Medical Technician
-                    (EMT) license and worked on an ambulance and in a local ER while I attended Texas State University in
-                    San Marcos. There my studies were focused primarily around human health in various forms, with a major
-                    in psychology and dual minors in biology and biochemistry. 
-                </p>
-            </Animated>
-            <Animated animateOnMount={false} isVisible={visible_third} animationIn='fadeInDown' >
-                <p>
-                    It was these studies that I have to thank for my current passion; in school I learned that the body
-                    functions like one giant machine, supplemented with billions of smaller machines. After school out of curiosity or fate
-                    I discovered programming, and the concept of abstraction and everything clicked! I was able to build beautiful, interesting,
-                    and useful things based on the genius of my CS predecessors and I have not stopped yet! 
-                </p>
-            </Animated>
-            <Animated animateOnMount={false} isVisible={visible_fourth} animationIn='fadeInDown' >
-            <p>
-                When I am in need of a 'tech detox' I absolutely love to go camping. I will venture out alone at times, but of course 
-                the best times are had with my wife and our two dogs. I am also a budding runner / biker and have some aspirations to complete 
-                a triathlon someday. I also love going out and exploring my city, and juist finding interesting things to do. 
-            </p>
-            </Animated>
-            <Animated animateOnMount={false} isVisible={visible_fifth} animationIn='fadeInDown' >
+            <div className="about-list-container">
+                <div className="experience about-content">
+                    <Animated animateOnMount={false} isVisible={visible_second} animationIn='fadeInDown'>
+                        <h4>My Past Work</h4>
+                        <ul className='experience-list'>
+                            <li>Ice Cream Scooper</li>
+                            <li>Store Stocker</li>
+                            <li>Emergency Medical Technician</li>
+                            <li>Optician</li>
+                            <li>Food Delivery Courier</li>
+                            <li>Customer Support Specialist</li>
+                            <li>Hobbyist Programmer</li>
+                        </ul>
+                    </Animated>
+                </div>
+                <div className="education">
+                    <Animated animateOnMount={false} isVisible={visible_third} animationIn='fadeInDown'>
+                        <h4>My Education</h4>
+                        <ul className='education-list about-content'>
+                            <li>Texas State University</li>
+                            <li>Zero To Mastery Academy</li>
+                            <li>Open Source Society University</li>
+                        </ul>
+                    </Animated>
+                </div>
+                <div className="hobbies">
+                    <Animated animateOnMount={false} isVisible={visible_third} animationIn='fadeInDown'>
+                        <h4>My Hobbies</h4>
+                        <ul className='hobbies-list about-content'>
+                            <li>Camping and Hiking</li>
+                            <li>Trail Bike Riding</li>
+                            <li>Running</li>
+                            <li>Video Games</li>
+                        </ul>
+                    </Animated>
+                </div>
+            {/* <Animated animateOnMount={false} isVisible={visible_fifth} animationIn='fadeInDown' >
             <p>
                 If you happen to live in the Austin area and know of cool stuff to do, or if you're not but would just like to chat there are links to
                 my various contact methods in the 'Contact' section in the navigation bar above. 
             </p>
-            </Animated>
+            </Animated> */}
+            </div>
         </div>
     </div>
 )};

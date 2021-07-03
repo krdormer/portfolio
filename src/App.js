@@ -10,6 +10,9 @@ import HomePage from './pages/home-page/home-page.component';
 import AboutPage from './pages/about-page/about-page.component';
 import ProjectsPage from './pages/projects-page/projects-page.component';
 
+// NPM Components
+
+
 const App = () => {
   return (
     <div className="App">
