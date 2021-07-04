@@ -6,6 +6,7 @@ import Button from '@material-ui/core/Button';
 // SVG image import as component 
 import { ReactComponent as CrwnImage } from '../../assets/crwn_clothing_tag.svg';
 import { ReactComponent as  DigitalMagicImage} from '../../assets/digital_magic_tag.svg';
+import { ReactComponent as RoboJokeTellerImage} from '../../assets/robo_joke_teller_image.svg';
 // For routing to project links
 import { Link } from 'react-router-dom';
 // NPM Component imports 
@@ -32,7 +33,7 @@ const ProjectsPage = () => (
             <Animated isVisible animationIn='slideInLeft'>
                 <div className='project'>
                     <h6 className='project-title' >CRWN Clothing</h6>
-                    <CrwnImage className="projectOne" />
+                    <CrwnImage className="project-image" />
                     <div className="project-button-container">
                         <Link to={{ 
                             pathname: "https://crwn-clothing-21-krd.herokuapp.com/" 
@@ -56,7 +57,7 @@ const ProjectsPage = () => (
             <Animated isVisible animationIn='slideInLeft'>
                 <div className="project">
                     <h6 className='project-title' >Digital Magic</h6>
-                    <DigitalMagicImage className='projectTwo' />
+                    <DigitalMagicImage className='project-image' />
                     <div className="project-button-container">
                         <Link to={{ 
                             pathname: "https://relaxed-wescoff-b22e85.netlify.app/" 
@@ -80,7 +81,7 @@ const ProjectsPage = () => (
             <Animated isVisible animationIn='slideInLeft'>
             <div className="project">
                 <h6 className='project-title' >Robo-Joke-Teller</h6>
-                <DigitalMagicImage className='projectTwo' />
+                <RoboJokeTellerImage className='project-image' />
                 <div className="project-button-container">
                     <Link to={{ 
                         pathname: "https://jovial-benz-9278be.netlify.app/" 

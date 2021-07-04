@@ -62,16 +62,6 @@ const AboutPage = () => {
                         </ul>
                     </Animated>
                 </div>
-                <div className="education">
-                    <Animated animateOnMount={false} isVisible={visible_third} animationIn='fadeInDown'>
-                        <h4>My Education</h4>
-                        <ul className='education-list about-content'>
-                            <li>Texas State University</li>
-                            <li>Zero To Mastery Academy</li>
-                            <li>Open Source Society University</li>
-                        </ul>
-                    </Animated>
-                </div>
                 <div className="hobbies">
                     <Animated animateOnMount={false} isVisible={visible_third} animationIn='fadeInDown'>
                         <h4>My Hobbies</h4>
@@ -83,12 +73,16 @@ const AboutPage = () => {
                         </ul>
                     </Animated>
                 </div>
-            {/* <Animated animateOnMount={false} isVisible={visible_fifth} animationIn='fadeInDown' >
-            <p>
-                If you happen to live in the Austin area and know of cool stuff to do, or if you're not but would just like to chat there are links to
-                my various contact methods in the 'Contact' section in the navigation bar above. 
-            </p>
-            </Animated> */}
+                <div className="education">
+                    <Animated animateOnMount={false} isVisible={visible_third} animationIn='fadeInDown'>
+                        <h4>My Education</h4>
+                        <ul className='education-list about-content'>
+                            <li>Texas State University</li>
+                            <li>Zero To Mastery Academy</li>
+                            <li>Open Source Society University</li>
+                        </ul>
+                    </Animated>
+                </div>
             </div>
         </div>
     </div>
