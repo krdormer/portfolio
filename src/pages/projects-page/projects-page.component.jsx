@@ -24,8 +24,8 @@ const ProjectsPage = () => (
                     it, as well as a link to the GitHub repo where you can review the code if interested. 
                 </p>
                 <p>
-                    Feel free to take a look, play around with them, break them, I'm always open to feedback
-                    so I can improve! 
+                    Feel free to take a look, play around with them, break them; I'm always open to feedback
+                    so I can produce the highest-quality software I can! 
                 </p>
             </div>
         </Animated>

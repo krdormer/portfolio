@@ -10,6 +10,7 @@ const AboutPage = () => {
     const [visible_first, setVisibilityFirst] = useState(false)
     const [visible_second, setVisibilitySecond] = useState(false);
     const [visible_third, setVisibilityThird] = useState(false);
+    const [visible_fourth, setVisibilityFourth] = useState(false);
 
 
 
@@ -27,9 +28,9 @@ const AboutPage = () => {
         setVisibilityThird(true)
     }, 3000)
 
-    // setInterval(() => {
-    //     setVisibilityFourth(true)
-    // }, 9000)
+    setInterval(() => {
+        setVisibilityFourth(true)
+    }, 4000)
 
     // setInterval(() => {
     //     setVisibilityFifth(true)
@@ -74,7 +75,7 @@ const AboutPage = () => {
                     </Animated>
                 </div>
                 <div className="education">
-                    <Animated animateOnMount={false} isVisible={visible_third} animationIn='fadeInDown'>
+                    <Animated animateOnMount={false} isVisible={visible_fourth} animationIn='fadeInDown'>
                         <h4>My Education</h4>
                         <ul className='education-list about-content'>
                             <li>Texas State University</li>
