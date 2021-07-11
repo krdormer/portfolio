@@ -20,13 +20,13 @@ const HomePage = () => {
     <div className="homepage">
         <div className="intro-text">
             <Animated isVisible animationIn='fadeInDown' >
-                <h1>Howdy, I'm Kevin!</h1>
+                <h1 className='intro-title'>Howdy, I'm Kevin!</h1>
             </Animated>
             <Animated animateOnMount={false} animationIn="fadeInUp" animationInDuration={2000} isVisible={visibleFirst} >
-                <p>I am a web developer from Austin, Texas.</p>
+                <p className='intro-detail'>I am a web developer from Austin, Texas.</p>
             </Animated>
             <Animated animateOnMount={false} animationIn="fadeInUp" animationInDuration={2000} isVisible={visibleSecond}>
-                <p>This is my portfolio, take a look around!</p>
+                <p className='intro-detail'>This is my portfolio, take a look around!</p>
             </Animated>
         </div>
     </div>
