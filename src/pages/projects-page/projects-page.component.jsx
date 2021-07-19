@@ -57,7 +57,7 @@ const ProjectsPage = () => (
               className="project-button-link"
               style={{ textDecoration: 'none' }}
             >
-              <Button variant="outlined" color="primary">
+              <Button variant="outlined" style={{ color: '#E56B6F' }}>
                 Live Demo!
               </Button>
             </Link>
@@ -71,7 +71,7 @@ const ProjectsPage = () => (
               className="project-button-link"
               style={{ textDecoration: 'none' }}
             >
-              <Button variant="outlined" color="primary">
+              <Button variant="outlined" style={{ color: '#E56B6F' }}>
                 GitHub Link
               </Button>
             </Link>
@@ -91,7 +91,7 @@ const ProjectsPage = () => (
               className="project-button-link"
               style={{ textDecoration: 'none' }}
             >
-              <Button variant="outlined" color="primary">
+              <Button variant="outlined" style={{ color: '#E56B6F' }}>
                 Live Demo!
               </Button>
             </Link>
@@ -105,7 +105,7 @@ const ProjectsPage = () => (
               className="project-button-link"
               style={{ textDecoration: 'none' }}
             >
-              <Button variant="outlined" color="primary">
+              <Button variant="outlined" style={{ color: '#E56B6F' }}>
                 GitHub Link
               </Button>
             </Link>
@@ -125,7 +125,7 @@ const ProjectsPage = () => (
               className="project-button-link"
               style={{ textDecoration: 'none' }}
             >
-              <Button variant="outlined" color="primary">
+              <Button variant="outlined" style={{ color: '#E56B6F' }}>
                 Live Demo!
               </Button>
             </Link>
@@ -139,7 +139,7 @@ const ProjectsPage = () => (
               className="project-button-link"
               style={{ textDecoration: 'none' }}
             >
-              <Button variant="outlined" color="primary">
+              <Button variant="outlined" style={{ color: '#E56B6F' }}>
                 GitHub Link
               </Button>
             </Link>

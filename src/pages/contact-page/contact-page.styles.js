@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const ContactPageStyles = styled.div`
   margin-top: 5%;
+  color: #eaac8b;
 `;
 
 export const ContactPageContactIconContainer = styled.div`

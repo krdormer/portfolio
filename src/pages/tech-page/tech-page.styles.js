@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 export const TechPageStyles = styled.div`
   margin-top: 3%;
+  color: #eaac8b;
 `;
 
 export const TechPageTechContainer = styled.div`

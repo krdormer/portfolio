@@ -5,6 +5,7 @@ export const AboutPageStyles = styled.div`
   min-height: 100vh;
   text-align: left;
   margin-left: 10px;
+  color: #eaac8b;
 `;
 
 export const AboutPageInfoStyles = styled.div`

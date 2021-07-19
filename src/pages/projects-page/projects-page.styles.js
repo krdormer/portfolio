@@ -6,6 +6,7 @@ export const ProjectsPageStyles = styled.div`
   text-align: center;
   font-size: 1.4rem;
   margin-top: 5%;
+  color: #eaac8b;
 `;
 
 export const ProjectPageInfoText = styled.div`
@@ -26,12 +27,13 @@ export const ProjectPageProjectContainer = styled.div`
 
 export const ProjectPageProjectStyles = styled.div`
   display: inline-block;
-  border: 2px solid blue;
+  border: 2px solid #e56b6f;
   border-radius: 10px;
   width: 250px;
   height: auto;
   padding: 5%;
   opacity: 0.7;
+  color: #e56b6f;
 `;
 
 export const ProjectPageButtonContainerStyles = styled.div`
