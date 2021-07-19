@@ -38,7 +38,7 @@ const TechPage = () => {
           animateOnMount={false}
           isVisible={visible_first}
           animationIn="slideInLeft"
-          style={{ margin: '0 10%', padding: '0', color: '#B56576' }}
+          style={{ margin: '0 10%', padding: '0', color: '#e56b6f' }}
         >
           <i class="devicon-html5-plain-wordmark" />
         </Animated>
@@ -47,7 +47,7 @@ const TechPage = () => {
           isVisible={visible_first}
           animationIn="slideInLeft"
           className="tech-image"
-          style={{ margin: '0 10%', padding: '0', color: '#B56576' }}
+          style={{ margin: '0 10%', padding: '0', color: '#e56b6f' }}
         >
           <i class="devicon-css3-plain-wordmark" />
         </Animated>
@@ -56,7 +56,7 @@ const TechPage = () => {
           isVisible={visible_first}
           animationIn="slideInLeft"
           className="tech-image"
-          style={{ margin: '0 10%', padding: '0', color: '#B56576' }}
+          style={{ margin: '0 10%', padding: '0', color: '#e56b6f' }}
         >
           <i class="devicon-javascript-plain" />
         </Animated>
@@ -65,7 +65,7 @@ const TechPage = () => {
           isVisible={visible_second}
           animationIn="slideInLeft"
           className="tech-image"
-          style={{ margin: '0 10%', padding: '0', color: '#B56576' }}
+          style={{ margin: '0 10%', padding: '0', color: '#e56b6f' }}
         >
           <i class="devicon-react-original-wordmark" />
         </Animated>
@@ -74,7 +74,7 @@ const TechPage = () => {
           isVisible={visible_second}
           animationIn="slideInLeft"
           className="tech-image"
-          style={{ margin: '0 10%', padding: '0', color: '#B56576' }}
+          style={{ margin: '0 10%', padding: '0', color: '#e56b6f' }}
         >
           <i class="devicon-sass-original" />
         </Animated>
@@ -83,7 +83,7 @@ const TechPage = () => {
           isVisible={visible_second}
           animationIn="slideInLeft"
           className="tech-image"
-          style={{ margin: '0 10%', padding: '0', color: '#B56576' }}
+          style={{ margin: '0 10%', padding: '0', color: '#e56b6f' }}
         >
           <i class="devicon-express-original-wordmark" />
         </Animated>
@@ -92,7 +92,7 @@ const TechPage = () => {
           isVisible={visible_third}
           animationIn="slideInLeft"
           className="tech-image"
-          style={{ margin: '0 10%', padding: '0', color: '#B56576' }}
+          style={{ margin: '0 10%', padding: '0', color: '#e56b6f' }}
         >
           <i class="devicon-mongodb-plain-wordmark" />
         </Animated>
@@ -101,7 +101,7 @@ const TechPage = () => {
           isVisible={visible_third}
           animationIn="slideInLeft"
           className="tech-image"
-          style={{ margin: '0 10%', padding: '0', color: '#B56576' }}
+          style={{ margin: '0 10%', padding: '0', color: '#e56b6f' }}
         >
           <i class="devicon-postgresql-plain-wordmark" />
         </Animated>
@@ -110,7 +110,7 @@ const TechPage = () => {
           isVisible={visible_third}
           animationIn="slideInLeft"
           className="tech-image"
-          style={{ margin: '0 10%', padding: '0', color: '#B56576' }}
+          style={{ margin: '0 10%', padding: '0', color: '#e56b6f' }}
         >
           <i class="devicon-git-plain-wordmark" />
         </Animated>
@@ -119,7 +119,7 @@ const TechPage = () => {
           isVisible={visible_fourth}
           animationIn="slideInLeft"
           className="tech-image"
-          style={{ margin: '0 10%', padding: '0', color: '#B56576' }}
+          style={{ margin: '0 10%', padding: '0', color: '#e56b6f' }}
         >
           <i class="devicon-github-original-wordmark" />
         </Animated>
@@ -128,7 +128,7 @@ const TechPage = () => {
           isVisible={visible_fourth}
           animationIn="slideInLeft"
           className="tech-image"
-          style={{ margin: '0 10%', padding: '0', color: '#B56576' }}
+          style={{ margin: '0 10%', padding: '0', color: '#e56b6f' }}
         >
           <i class="devicon-python-plain-wordmark" />
         </Animated>
@@ -137,7 +137,7 @@ const TechPage = () => {
           isVisible={visible_fourth}
           animationIn="slideInLeft"
           className="tech-image"
-          style={{ margin: '0 10%', padding: '0', color: '#B56576' }}
+          style={{ margin: '0 10%', padding: '0', color: '#e56b6f' }}
         >
           <i class="devicon-swift-plain-wordmark" />
         </Animated>

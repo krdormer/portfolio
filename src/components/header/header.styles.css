@@ -4,6 +4,10 @@
   align-items: center;
   width: 100vw;
   height: 5vh;
+  padding-bottom: 5px;
+  padding-top: 5px;
+  border-bottom: 1px solid #b56576;
+  overflow: hidden;
 }
 
 .link-container {
@@ -14,8 +18,8 @@
 }
 
 .link-option {
-  color: #eaac8b;
-  text-shadow: 0.5px 0.5px whitesmoke;
+  color: #e56b6f;
+  /* text-shadow: 0.5px 0.5px whitesmoke; */
   text-decoration: none;
   margin: auto 10px;
   font-size: 1.2rem;
