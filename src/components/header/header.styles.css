@@ -15,6 +15,7 @@
 
 .link-option {
   color: #eaac8b;
+  text-shadow: 0.5px 0.5px whitesmoke;
   text-decoration: none;
   margin: auto 10px;
   font-size: 1.2rem;

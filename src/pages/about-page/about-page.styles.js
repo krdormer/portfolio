@@ -8,6 +8,22 @@ export const AboutPageStyles = styled.div`
   color: #eaac8b;
 `;
 
+export const AboutPageTitleTextStyles = styled.h1`
+  text-shadow: 1px 1px whitesmoke;
+`;
+
+export const AboutPageIntroTextStyles = styled.p`
+  text-shadow: 0.6px 0.6px whitesmoke;
+`;
+
+export const AboutPageSubTitleStyles = styled.h4`
+  color: #e56b6f;
+`;
+
+export const AboutPageListItemStyles = styled.li`
+  color: #b56576;
+`;
+
 export const AboutPageInfoStyles = styled.div`
   width: 80vw;
   font-size: 1.4rem;

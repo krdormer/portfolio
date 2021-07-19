@@ -8,6 +8,10 @@ import {
   AboutPageEducationListStyles,
   AboutPageExperienceListStyles,
   AboutPageHobbyListStyles,
+  AboutPageTitleTextStyles,
+  AboutPageIntroTextStyles,
+  AboutPageSubTitleStyles,
+  AboutPageListItemStyles,
 } from './about-page.styles';
 // For animations, using Animated component
 import { Animated } from 'react-animated-css';
@@ -40,18 +44,18 @@ const AboutPage = () => {
     <AboutPageStyles>
       <AboutPageInfoStyles>
         <Animated isVisible={true} animationIn="fadeInDown">
-          <h1>A bit about me...</h1>
+          <AboutPageTitleTextStyles>A bit about me...</AboutPageTitleTextStyles>
         </Animated>
         <Animated
           animateOnMount={false}
           isVisible={visible_first}
           animationIn="fadeInDown"
         >
-          <p>
+          <AboutPageIntroTextStyles>
             I am a self-taught software developer located in Austin, TX with a
             background in web development and its related technologies, looking
             to break into a professional role in the industry.
-          </p>
+          </AboutPageIntroTextStyles>
         </Animated>
         <AboutPageListStyles>
           <div className="experience about-content">
@@ -60,44 +64,62 @@ const AboutPage = () => {
               isVisible={visible_second}
               animationIn="fadeInDown"
             >
-              <h4>My Past Work</h4>
+              <AboutPageSubTitleStyles>My Past Work</AboutPageSubTitleStyles>
               <AboutPageExperienceListStyles>
-                <li>Ice Cream Scooper</li>
-                <li>Store Stocker</li>
-                <li>Emergency Medical Technician</li>
-                <li>Optician</li>
-                <li>Food Delivery Courier</li>
-                <li>Customer Support Specialist</li>
-                <li>Hobbyist Programmer</li>
+                <AboutPageListItemStyles>
+                  Ice Cream Scooper
+                </AboutPageListItemStyles>
+                <AboutPageListItemStyles>Store Stocker</AboutPageListItemStyles>
+                <AboutPageListItemStyles>
+                  Emergency Medical Technician
+                </AboutPageListItemStyles>
+                <AboutPageListItemStyles>Optician</AboutPageListItemStyles>
+                <AboutPageListItemStyles>
+                  Food Delivery Courier
+                </AboutPageListItemStyles>
+                <AboutPageListItemStyles>
+                  Customer Support Specialist
+                </AboutPageListItemStyles>
+                <AboutPageListItemStyles>
+                  Hobbyist Programmer
+                </AboutPageListItemStyles>
               </AboutPageExperienceListStyles>
             </Animated>
           </div>
-          <AboutPageHobbyListStyles>
-            <Animated
-              animateOnMount={false}
-              isVisible={visible_third}
-              animationIn="fadeInDown"
-            >
-              <h4>My Hobbies</h4>
-              <ul className="hobbies-list about-content">
-                <li>Camping and Hiking</li>
-                <li>Trail Bike Riding</li>
-                <li>Running</li>
-                <li>Video Games</li>
-              </ul>
-            </Animated>
-          </AboutPageHobbyListStyles>
+          <Animated
+            animateOnMount={false}
+            isVisible={visible_third}
+            animationIn="fadeInDown"
+          >
+            <AboutPageSubTitleStyles>My Hobbies</AboutPageSubTitleStyles>
+            <AboutPageHobbyListStyles>
+              <AboutPageListItemStyles>
+                Camping and Hiking
+              </AboutPageListItemStyles>
+              <AboutPageListItemStyles>
+                Trail Bike Riding
+              </AboutPageListItemStyles>
+              <AboutPageListItemStyles>Running</AboutPageListItemStyles>
+              <AboutPageListItemStyles>Video Games</AboutPageListItemStyles>
+            </AboutPageHobbyListStyles>
+          </Animated>
           <div className="education">
             <Animated
               animateOnMount={false}
               isVisible={visible_fourth}
               animationIn="fadeInDown"
             >
-              <h4>My Education</h4>
+              <AboutPageSubTitleStyles>My Education</AboutPageSubTitleStyles>
               <AboutPageEducationListStyles>
-                <li>Texas State University</li>
-                <li>Zero To Mastery Academy</li>
-                <li>Open Source Society University</li>
+                <AboutPageListItemStyles>
+                  Texas State University
+                </AboutPageListItemStyles>
+                <AboutPageListItemStyles>
+                  Zero To Mastery Academy
+                </AboutPageListItemStyles>
+                <AboutPageListItemStyles>
+                  Open Source Society University
+                </AboutPageListItemStyles>
               </AboutPageEducationListStyles>
             </Animated>
           </div>

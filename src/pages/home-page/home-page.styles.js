@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const HomePageStyles = styled.div`
   min-width: 100vw;
   min-height: 100vh;
-  text-shadow: 2px 2px whitesmoke;
+  text-shadow: 1px 1px whitesmoke;
 `;
 
 export const HomePageIntroTextStyles = styled.div`
