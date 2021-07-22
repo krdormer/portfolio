@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const ProjectsPageStyles = styled.div`
+export const ProjectsPageStyles = styled.main`
   min-width: 100vw;
   min-height: 100vh;
   text-align: center;
@@ -9,7 +9,7 @@ export const ProjectsPageStyles = styled.div`
   color: #eaac8b;
 `;
 
-export const ProjectPageInfoText = styled.div`
+export const ProjectPageInfoText = styled.section`
   width: 80vw;
   font-size: 1.4rem;
   margin-left: 10vw;
@@ -25,7 +25,7 @@ export const ProjectPageProjectContainer = styled.div`
   margin-top: 5%;
 `;
 
-export const ProjectPageProjectStyles = styled.div`
+export const ProjectPageProjectStyles = styled.figure`
   display: inline-block;
   border: 2px solid #e56b6f;
   border-radius: 10px;
