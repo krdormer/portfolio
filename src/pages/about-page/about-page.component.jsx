@@ -5,9 +5,7 @@ import {
   AboutPageStyles,
   AboutPageInfoStyles,
   AboutPageListStyles,
-  AboutPageEducationListStyles,
-  AboutPageExperienceListStyles,
-  AboutPageHobbyListStyles,
+  AboutPageUnorderedListStyles,
   AboutPageTitleTextStyles,
   AboutPageIntroTextStyles,
   AboutPageSubTitleStyles,
@@ -61,7 +59,7 @@ const AboutPage = () => {
             isVisible={visible_second}
             animationIn="fadeInDown"
           >
-            <AboutPageExperienceListStyles>
+            <AboutPageUnorderedListStyles>
               <AboutPageSubTitleStyles>My Past Work</AboutPageSubTitleStyles>
               <AboutPageListItemStyles>
                 Ice Cream Scooper
@@ -80,14 +78,14 @@ const AboutPage = () => {
               <AboutPageListItemStyles>
                 Hobbyist Programmer
               </AboutPageListItemStyles>
-            </AboutPageExperienceListStyles>
+            </AboutPageUnorderedListStyles>
           </Animated>
           <Animated
             animateOnMount={false}
             isVisible={visible_third}
             animationIn="fadeInDown"
           >
-            <AboutPageHobbyListStyles>
+            <AboutPageUnorderedListStyles>
               <AboutPageSubTitleStyles>My Hobbies</AboutPageSubTitleStyles>
               <AboutPageListItemStyles>
                 Camping and Hiking
@@ -97,14 +95,14 @@ const AboutPage = () => {
               </AboutPageListItemStyles>
               <AboutPageListItemStyles>Running</AboutPageListItemStyles>
               <AboutPageListItemStyles>Video Games</AboutPageListItemStyles>
-            </AboutPageHobbyListStyles>
+            </AboutPageUnorderedListStyles>
           </Animated>
           <Animated
             animateOnMount={false}
             isVisible={visible_fourth}
             animationIn="fadeInDown"
           >
-            <AboutPageEducationListStyles>
+            <AboutPageUnorderedListStyles>
               <AboutPageSubTitleStyles>My Education</AboutPageSubTitleStyles>
               <AboutPageListItemStyles>
                 Texas State University
@@ -115,7 +113,7 @@ const AboutPage = () => {
               <AboutPageListItemStyles>
                 Open Source Society University
               </AboutPageListItemStyles>
-            </AboutPageEducationListStyles>
+            </AboutPageUnorderedListStyles>
           </Animated>
         </AboutPageListStyles>
       </AboutPageInfoStyles>

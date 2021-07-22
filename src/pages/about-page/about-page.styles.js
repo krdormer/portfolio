@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const AboutPageStyles = styled.div`
+export const AboutPageStyles = styled.main`
   min-width: 100vw;
   min-height: 100vh;
   color: #eaac8b;
@@ -11,6 +11,7 @@ export const AboutPageInfoStyles = styled.div`
   font-size: 1.4rem;
   margin-left: 10vw;
   margin-right: 10vw;
+  margin-top: 5vw;
 `;
 
 export const AboutPageTitleTextStyles = styled.h1`
@@ -27,7 +28,7 @@ export const AboutPageIntroTextStyles = styled.p`
   text-shadow: 0.6px 0.6px whitesmoke;
 `;
 
-export const AboutPageListStyles = styled.div`
+export const AboutPageListStyles = styled.section`
   display: flex;
   justify-content: space-evenly;
 `;
@@ -38,18 +39,10 @@ export const AboutPageSubTitleStyles = styled.h4`
   text-decoration: underline;
 `;
 
+export const AboutPageUnorderedListStyles = styled.ul`
+  list-style-type: none;
+`;
+
 export const AboutPageListItemStyles = styled.li`
   color: #e56b6f;
-`;
-
-export const AboutPageEducationListStyles = styled.div`
-  list-style-type: none;
-`;
-
-export const AboutPageExperienceListStyles = styled.div`
-  list-style-type: none;
-`;
-
-export const AboutPageHobbyListStyles = styled.div`
-  list-style-type: none;
 `;
