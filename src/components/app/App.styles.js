@@ -1,16 +1,16 @@
-/* Imports Lato font from Google Fonts */
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+import styled from 'styled-components';
 
-html,
-body {
+export const AppStyles = styled.div`
   font-family: 'Lato', sans-serif;
-  font-size: 1rem;
-  width: 100vw;
-  height: 100vh;
   background-color: #355070;
-  margin: 0;
-  padding: 0;
-}
+  font-size: 1rem;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  text-align: center;
+`;
 
 /* My Colors: */
 /* #355070 - dark blue */

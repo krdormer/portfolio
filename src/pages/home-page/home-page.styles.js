@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const HomePageStyles = styled.div`
+export const HomePageStyles = styled.main`
   min-width: 100vw;
   min-height: 100vh;
 `;
